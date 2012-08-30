@@ -1,0 +1,26 @@
+---
+layout: default
+title: Tags
+---
+
+  <h1>Tags</h1>
+    <ul class="tags">
+      {% for tag in site.tags %}
+        <li id="tag-{{ tag[0] }}">
+          <a href="tags.html#{{ tag[0] }}" title="Filtrer les posts avec le tag {{ tag[0] }}">{{ tag[0] }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+
+  <ul id="tag-list">
+    {% for tag in site.tags %}
+      <li id="{{ tag[0] }}">{{ tag[0] }}:
+        <ul>
+          {% for post in tag[1] %}
+            <li><a href="./{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>

@@ -1,0 +1,60 @@
+pygments: true
+paginate: 4
+auto: true
+authors:
+  dpilato:
+    fullname: David Pilato
+    twitter: dadoonet
+    github: dadoonet
+    gravatar: 20049a614b7f6838dc87b4bc39c42079
+    email: david@pilato.fr
+  tlrx:
+    fullname: Tanguy Leroux
+    twitter: tlrx
+    github: tlrx
+    gravatar: 
+    email: 
+navigation:
+  Elasticsearch:
+    Accueil:
+      url: /
+      texte: Accueil
+    Documentation:
+      url: notyet
+      texte: Documentation
+    Communaute:
+      url: notyet
+      texte: Communauté
+    Participez:
+      url: notyet
+      texte: Participez
+  Trucs:
+    Débuter:
+      url: notyet
+      texte: Débuter
+    Indexer:
+      url: notyet
+      texte: Indexer
+    Chercher:
+      url: notyet
+      texte: Chercher
+    Avancé:
+      url: notyet
+      texte: Notions Avancées
+    Tags:
+      url: /tags.html
+      texte: Mots clés
+  Contacts:
+    ML:
+      url: /ml.html
+      texte: Liste de diffusion
+    Twitter:
+      url: /twitter.html
+      texte: Twitter
+    Membres:
+      url: /authors.html
+      texte: Les auteurs
+    Blog:
+      url: notyet
+      texte: Le blog
+      layout: post
