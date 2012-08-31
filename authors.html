@@ -2,6 +2,13 @@
 layout: default
 title: Auteurs
 ---
+
+<style type="text/css">
+  div.selected {
+  	border-width: 10px;
+  }
+</style>
+    
 <section id="authors">
 
     {% for author in site.authors %}
@@ -38,3 +45,7 @@ title: Auteurs
 	</div>
     {% endfor %}
 </section>
+
+    <script defer src="/js/tags.js"></script>
+    <script defer src="/js/authors.js"></script>
+

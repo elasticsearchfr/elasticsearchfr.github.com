@@ -17,17 +17,14 @@ authors:
 navigation:
   Elasticsearch:
     Accueil:
-      url: /
+      url: /index.html
       texte: Accueil
-    Documentation:
-      url: notyet
-      texte: Documentation
-    Communaute:
-      url: notyet
-      texte: Communauté
     Participez:
-      url: notyet
+      url: /joinus.html
       texte: Participez
+    Agenda:
+      url: /agenda.html
+      texte: Agenda
   Trucs:
     Débuter:
       url: notyet
