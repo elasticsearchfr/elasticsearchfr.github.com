@@ -1,8 +1,8 @@
 <span>Tags :</span>
-<ul>
+<ul class="tags">
   {% for tag in post.tags %}
     <li>
-        <a href="../../../../tags.html#{{ tag }}" title="Voir les posts concernant {{ tag }}">{{ tag }}</a>
+        <a href="/tags.html#{{ tag }}" title="Voir les posts concernant {{ tag }}">{{ tag }}</a>
     </li>
   {% endfor %}
 </ul>
