@@ -58,6 +58,6 @@ navigation:
       url: /authors.html
       texte: Les auteurs
     Blog:
-      url: notyet
+      url: /blog.html
       texte: Le blog
       layout: post
