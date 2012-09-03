@@ -18,3 +18,16 @@
 .tags li a:hover {
   border-bottom-color: white;
 }
+
+#tags header {
+  font-size: 80%;
+  margin-bottom: 1em;
+}
+
+#tags header ul {
+  margin: 0;
+}
+
+#tags header li.selected {
+  background-color: #5cb0cc;
+}
