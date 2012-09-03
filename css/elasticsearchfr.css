@@ -1,0 +1,20 @@
+.tags ul {
+  display: inline;
+  margin-left: 0;
+}
+
+.tags li {
+  display: inline-block;
+  background-color: #6db900;
+  border-radius: 4px;
+  padding: 0 0.6em;
+  margin: 0.1em 0.2em;
+}
+
+.tags li a, .tags li a:hover, .tags li a:visited {
+  color: white;
+}
+
+.tags li a:hover {
+  border-bottom-color: white;
+}
