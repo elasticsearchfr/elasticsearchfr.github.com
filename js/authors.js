@@ -7,3 +7,9 @@ $(function() {
         }
     }
 });
+
+
+function showPosts(authorpostid) {
+    $('#authors div div div#' + authorpostid).toggleClass("hidden");
+}
+

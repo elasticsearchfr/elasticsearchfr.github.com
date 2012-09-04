@@ -25,6 +25,9 @@ title: Auteurs
 		        </div>
 				<div class="row">
 					<div class="span1">
+				        <a href="javascript:showPosts('{{ author[0] }}_posts');" title="Voir les articles de {{ author[1].fullname }}"><img src="/img/posts-icon.png"></a>
+					</div>
+					<div class="span1 offset1">
 						{% if author[1].twitter %} 
 				        <a class="twitter" href="https://twitter.com/{{ author[1].twitter }}" title="@{{ author[1].twitter }} sur Twitter"><img src="/img/twitter-bird-light-bgs.png"></a>
 				        {% endif %}
@@ -40,12 +43,19 @@ title: Auteurs
 				        {% endif %}
 					</div>
 		        </div>
+				<div id="{{ author[0] }}_posts" class="row hidden">
+				<ul>
+				{% for post in site.posts %}
+					{% if author[0] == post.author %} 
+				        <li><a href="{{ post.url }}" class="read-more" title="Lire l'article complet">{{ post.title }}</a>
+			        {% endif %}
+				{% endfor %}
+				</ul>
+		        </div>
 			</div>
 		</div>
 	</div>
     {% endfor %}
 </section>
 
-    <script defer src="/js/tags.js"></script>
-    <script defer src="/js/authors.js"></script>
 
