@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Proteger son cluster Elasticsearch avec Jetty
 tags:

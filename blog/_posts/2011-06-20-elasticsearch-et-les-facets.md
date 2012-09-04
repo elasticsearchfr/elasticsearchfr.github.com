@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: ElasticSearch et les "facets"
 tags:

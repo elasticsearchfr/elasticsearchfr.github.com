@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Quel client Java pour ElasticSearch ?
 tags:

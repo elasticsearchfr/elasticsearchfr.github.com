@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Une factory Spring pour Elasticsearch
 tags:
