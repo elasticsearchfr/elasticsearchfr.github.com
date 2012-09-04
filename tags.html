@@ -3,7 +3,9 @@ layout: default
 title: Tags
 ---
 
+<section id="tags">
   <h1>Tags</h1>
+   <header>
     <ul class="tags">
       {% for tag in site.tags %}
         <li id="tag-{{ tag[0] }}">
@@ -11,7 +13,7 @@ title: Tags
         </li>
       {% endfor %}
     </ul>
-
+  </header>
 
   <ul id="tag-list">
     {% for tag in site.tags %}
@@ -24,5 +26,4 @@ title: Tags
       </li>
     {% endfor %}
   </ul>
-
-    <script src="/js/tags.js"></script>
+</section>
