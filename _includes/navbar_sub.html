@@ -1,0 +1,16 @@
+{% assign submenu = site.navigation[submenuitem] %}
+{% for link in submenu %}
+  {% assign current = nil %}
+  {% if page.url == link[1].url or page.layout == link[1].layout %}
+    {% assign current = 'active' %}
+  {% endif %}
+  <li class="{{ current }}">
+  {% if link[1].url <> 'notyet' %}
+  <a href="{{ link[1].url }}">
+  {% endif %}
+    {{ link[1].texte }}
+  {% if link[1].url <> 'notyet' %}
+  </a>
+  {% endif %}
+  </li>
+{% endfor %}

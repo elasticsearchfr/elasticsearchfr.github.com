@@ -1,5 +1,5 @@
 pygments: true
-paginate: 4
+# paginate: 4
 auto: true
 authors:
   dpilato:
@@ -21,7 +21,7 @@ authors:
     gravatar: 6ac6a4f3b7b0c17631f967054ef6a194
     email:    
 navigation:
-  Elasticsearch:
+  elasticsearch:
     Accueil:
       url: /index.html
       texte: Accueil
@@ -31,7 +31,7 @@ navigation:
     Agenda:
       url: /agenda.html
       texte: Agenda
-  Trucs:
+  trucs:
     Débuter:
       url: notyet
       texte: Débuter
@@ -47,7 +47,7 @@ navigation:
     Tags:
       url: /tags.html
       texte: Mots clés
-  Contacts:
+  contacts:
     ML:
       url: /ml.html
       texte: Liste de diffusion
