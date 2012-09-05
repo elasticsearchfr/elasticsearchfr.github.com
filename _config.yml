@@ -34,14 +34,14 @@ navigation:
     - url: /blog.html
       texte: Le blog
       layout: post
-    - url: /tags.html#!débuter
-      texte: Débuter
-    - url: /tags.html#!index
-      texte: Indexer
-    - url: /tags.html#recherche
-      texte: Chercher
-    - url: /tags.html#!avancé
-      texte: Notions Avancées
+#    - url: /tags.html#!débuter
+#      texte: Débuter
+#    - url: /tags.html#!index
+#      texte: Indexer
+#    - url: /tags.html#recherche
+#      texte: Chercher
+#    - url: /tags.html#!avancé
+#      texte: Notions Avancées
     - url: /tags.html
       texte: Mots clés
   - texte: Contacts
