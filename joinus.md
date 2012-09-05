@@ -48,12 +48,14 @@ Instructions détaillées
 Si il s'agit de votre première contribution, vous devez également modifier le fichier `_config.yml` et ajouter sous authors une
 structure de ce type :
 
+{% highlight %}
   username:
     fullname: Prénom Nom
     twitter: twitteraccount
     github: githubaccount
     gravatar: gravatarhash
     email: youremail
+{% endhighlight %}
 
 **Attention** : Il faut bien mettre des espaces avant username et ne surtout pas utiliser de tabulation.
 
