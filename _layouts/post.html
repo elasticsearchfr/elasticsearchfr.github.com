@@ -1,6 +1,12 @@
----
-layout: default
----
+{% include site_header.html %}
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+      		{% include navbar.html %}
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
 
 {% assign post = page %}
 
@@ -38,3 +44,7 @@ layout: default
 <div class="row">
 	<div class="span12">{% include comments.html %}</div>
 </div>
+    </div><!--/span-->
+  </div><!--/row-->
+</div><!--/.fluid-container-->
+{% include site_footer.html %}
