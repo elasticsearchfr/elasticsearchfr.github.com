@@ -26,6 +26,7 @@ Instructions détaillées
 * Chaque POST doit être nommé de la façon suivante : AAAA-MM-DD-nom-du-post.md (vous pouvez aussi écrire en HTML ou en textile).
 * Chaque POST doit être enregistré et édité en UTF-8 (**Attention aux utilisateurs sous windows**)
 * Dans l'entête du POST, on doit trouver la structure suivante :
+
 {% highlight txt %}
 layout: post
 title: Votre titre ici
@@ -36,6 +37,7 @@ author: username
 image: http://lienversimage/ ou /blog/img/imagelocale.png
 source: http://lienverssource/
 {% endhighlight %}
+
 * Modifiez :
   * **title** pour indiquer le titre de votre article
   * **author** pour indiquer votre pseudo sur ce site
@@ -47,6 +49,7 @@ source: http://lienverssource/
 
 Si il s'agit de votre première contribution, vous devez également modifier le fichier `_config.yml` et ajouter sous authors une
 structure de ce type :
+
 {% highlight txt %}
   username:
     fullname: Prénom Nom
