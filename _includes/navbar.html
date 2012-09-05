@@ -1,17 +1,17 @@
 <ul class="nav nav-list">
   {% for menu in site.navigation %}
-  <li class="nav-header">{{ menu[0] }}</li>
-    {% for link in menu[1] %}
+  <li class="nav-header">{{ menu.texte }}</li>
+    {% for link in menu.submenu %}
       {% assign current = nil %}
-      {% if page.url == link[1].url or page.layout == link[1].layout %}
+      {% if page.url == link.url or page.layout == link.layout %}
         {% assign current = 'active' %}
       {% endif %}
       <li class="{{ current }}">
-      {% if link[1].url <> 'notyet' %}
+      {% if link.url <> 'notyet' %}
       <a href="{{ link[1].url }}">
       {% endif %}
-		{{ link[1].texte }}
-      {% if link[1].url <> 'notyet' %}
+		{{ link.texte }}
+      {% if link.url <> 'notyet' %}
       </a>
       {% endif %}
       </li>

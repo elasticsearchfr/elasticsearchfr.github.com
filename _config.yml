@@ -21,43 +21,34 @@ authors:
     gravatar: 6ac6a4f3b7b0c17631f967054ef6a194
     email:    
 navigation:
-  Elasticsearch:
-    Accueil:
-      url: /index.html
+  - texte: Elasticsearch
+    submenu:
+    - url: /index.html
       texte: Accueil
-    Participez:
-      url: /joinus.html
+    - url: /joinus.html
       texte: Participez
-    Agenda:
-      url: /agenda.html
+    - url: /agenda.html
       texte: Agenda
-  Trucs:
-    Débuter:
-      url: notyet
+  - texte: Trucs et astuces
+    submenu:
+    - url: notyet
       texte: Débuter
-    Indexer:
-      url: notyet
+    - url: notyet
       texte: Indexer
-    Chercher:
-      url: notyet
+    - url: notyet
       texte: Chercher
-    Avancé:
-      url: notyet
+    - url: notyet
       texte: Notions Avancées
-    Tags:
-      url: /tags.html
+    - url: /tags.html
       texte: Mots clés
-  Contacts:
-    ML:
-      url: /ml.html
+  - texte: Contacts
+    submenu:
+    - url: /ml.html
       texte: Liste de diffusion
-    Twitter:
-      url: /twitter.html
+    - url: /twitter.html
       texte: Twitter
-    Membres:
-      url: /authors.html
+    - url: /authors.html
       texte: Les auteurs
-    Blog:
-      url: /blog.html
+    - url: /blog.html
       texte: Le blog
       layout: post
