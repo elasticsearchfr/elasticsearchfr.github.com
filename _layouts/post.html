@@ -8,19 +8,15 @@ layout: default
 	<div class="span12"><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></div>
 </div>
 <div class="row">
-	<div class="span6">
+	<div class="span12">
 	<blockquote>
 	<p>Par <span class="author"><a href="/authors.html#{{ post.author }}">{{ site.authors[post.author].fullname }}</a></span> 
-	le <time datetime="{{ post.date | date:'%Y-%m-%d' }}" pubdate="pubdate">{{ post.date | date_to_long_string }}</time></p>
+	le {{ post.date | date: "%d/%m/%Y" }}</p>
 {% if post.source %} 
 	<small>Source : <a href="{{ post.source }}">{{ post.source }}</a></small>
 {% endif %}
-	</blockquote>
-	</div>
-	<div class="span6">
-	<blockquote class="pull-right">
-	<p>{% include tags.html %}</p>
 	<small><span class="comments"><a href="#disqus_thread" title="Voir les commentaires">Commentaires</a></span></small>
+	{% include tags.html %}
 	</blockquote>
 	</div>
 </div>
