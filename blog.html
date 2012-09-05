@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Les derniers articles
+title: Les 10 derniers articles
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
 
 <div class="row">
 	<div class="span12"><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></div>
