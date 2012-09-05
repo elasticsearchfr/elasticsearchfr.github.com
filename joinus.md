@@ -27,8 +27,6 @@ Instructions détaillées
 * Chaque POST doit être enregistré et édité en UTF-8 (**Attention aux utilisateurs sous windows**)
 * Dans l'entête du POST, on doit trouver la structure suivante :
 {% highlight txt %}
-{% raw %}
----
 layout: post
 title: Votre titre ici
 tags:
@@ -37,8 +35,6 @@ tags:
 author: username
 image: http://lienversimage/ ou /blog/img/imagelocale.png
 source: http://lienverssource/
----
-{% endraw %}
 {% endhighlight %}
 * Modifiez :
   * **title** pour indiquer le titre de votre article
@@ -52,14 +48,12 @@ source: http://lienverssource/
 Si il s'agit de votre première contribution, vous devez également modifier le fichier `_config.yml` et ajouter sous authors une
 structure de ce type :
 {% highlight txt %}
-{% raw %}
   username:
     fullname: Prénom Nom
     twitter: twitteraccount
     github: githubaccount
     gravatar: gravatarhash
     email: youremail
-{% endraw %}
 {% endhighlight %}
 
 **Attention** : Il faut bien mettre des espaces avant username et ne surtout pas utiliser de tabulation.
