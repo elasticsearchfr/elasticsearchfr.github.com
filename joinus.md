@@ -28,14 +28,14 @@ Instructions détaillées
 * Dans l'entête du POST, on doit trouver la structure suivante :
 
 {% highlight txt %}
-layout: post
-title: Votre titre ici
-tags:
-- tag1
-- tag2
-author: username
-image: http://lienversimage/ ou /blog/img/imagelocale.png
-source: http://lienverssource/
+	layout: post
+	title: Votre titre ici
+	tags:
+	- tag1
+	- tag2
+	author: username
+	image: http://lienversimage/ ou /blog/img/imagelocale.png
+	source: http://lienverssource/
 {% endhighlight %}
 
 * Modifiez :
