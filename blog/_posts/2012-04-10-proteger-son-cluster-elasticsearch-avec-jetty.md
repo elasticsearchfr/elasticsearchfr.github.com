@@ -2,7 +2,7 @@
 layout: post
 title: Proteger son cluster Elasticsearch avec Jetty
 tags:
-- elasticsearch
+- avancé
 - jetty
 author: dpilato
 source: http://dev.david.pilato.fr/?p=241

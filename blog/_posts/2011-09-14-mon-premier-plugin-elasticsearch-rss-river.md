@@ -2,9 +2,10 @@
 layout: post
 title: 'Mon premier plugin ElasticSearch : RSS River'
 tags:
-- elasticsearch
 - plugin
 - river
+- index
+- rss
 author: dpilato
 source: http://dev.david.pilato.fr/?p=171
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Une factory Spring pour Elasticsearch
 tags:
-- elasticsearch
+- débuter
 - java
 - maven
 - spring

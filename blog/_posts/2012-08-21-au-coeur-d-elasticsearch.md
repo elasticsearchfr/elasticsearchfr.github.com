@@ -5,7 +5,8 @@ image: http://pullrequest.org/public/img/2012-08-21-au-coeur-d-elasticsearch/esl
 author: filirom1
 tags: 
 - index
-- elasticsearch
+- recherche
+- avancé
 - lucene
 source: http://pullrequest.org/2012/08/21/au-coeur-d-elasticsearch.html
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: 'ScrutMyDocs : un moteur de recherche pour documents'
 tags:
-- elasticsearch
 - java
 - jsf
 - primefaces

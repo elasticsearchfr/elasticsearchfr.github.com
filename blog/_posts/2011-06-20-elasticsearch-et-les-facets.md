@@ -2,7 +2,7 @@
 layout: post
 title: ElasticSearch et les "facets"
 tags:
-- elasticsearch
+- recherche
 - facets
 author: dpilato
 source: http://dev.david.pilato.fr/?p=148

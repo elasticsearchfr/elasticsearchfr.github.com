@@ -2,8 +2,8 @@
 layout: post
 title: Quel client Java pour ElasticSearch ?
 tags:
-- elasticsearch
 - java
+- débuter
 author: dpilato
 source: http://dev.david.pilato.fr/?p=185
 ---

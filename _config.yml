@@ -31,13 +31,16 @@ navigation:
       texte: Agenda
   - texte: Trucs et astuces
     submenu:
-    - url: notyet
+    - url: /blog.html
+      texte: Le blog
+      layout: post
+    - url: /tags.html#!débuter
       texte: Débuter
-    - url: notyet
+    - url: /tags.html#!index
       texte: Indexer
-    - url: notyet
+    - url: /tags.html#recherche
       texte: Chercher
-    - url: notyet
+    - url: /tags.html#!avancé
       texte: Notions Avancées
     - url: /tags.html
       texte: Mots clés
@@ -49,6 +52,3 @@ navigation:
       texte: Twitter
     - url: /authors.html
       texte: Les auteurs
-    - url: /blog.html
-      texte: Le blog
-      layout: post
