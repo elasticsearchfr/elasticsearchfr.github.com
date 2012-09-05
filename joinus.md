@@ -27,14 +27,18 @@ Instructions détaillées
 * Chaque POST doit être enregistré et édité en UTF-8 (**Attention aux utilisateurs sous windows**)
 * Dans l'entête du POST, on doit trouver la structure suivante :
 
-	layout: post
-	title: Votre titre ici
-	tags:
-	- tag1
-	- tag2
-	author: username
-	image: http://lienversimage/ ou /blog/img/imagelocale.png
-	source: http://lienverssource/
+<pre>
+---
+layout: post
+title: Votre titre ici
+tags:
+- tag1
+- tag2
+author: username
+image: http://lienversimage/ ou /blog/img/imagelocale.png
+source: http://lienverssource/
+---
+</pre>
 
 * Modifiez :
   * **title** pour indiquer le titre de votre article
@@ -48,14 +52,14 @@ Instructions détaillées
 Si il s'agit de votre première contribution, vous devez également modifier le fichier `_config.yml` et ajouter sous authors une
 structure de ce type :
 
-{% highlight %}
+<pre>
   username:
     fullname: Prénom Nom
     twitter: twitteraccount
     github: githubaccount
     gravatar: gravatarhash
     email: youremail
-{% endhighlight %}
+</pre>
 
 **Attention** : Il faut bien mettre des espaces avant username et ne surtout pas utiliser de tabulation.
 
