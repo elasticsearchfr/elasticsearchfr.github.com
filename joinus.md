@@ -74,5 +74,5 @@ Modifiez :
 Conférences / Evènements
 ========================
 
-Si vous avez un évènement à faire connaitre sur [l'agenda](/agenda.html), invitez simplement le compte google [elasticsearchfr@gmail.com](elasticsearchfr@gmail.com)
+Si vous avez un évènement à faire connaitre sur [l'agenda](/agenda.html), invitez simplement le compte google `elasticsearchfr@gmail.com`
 à votre propre évènement de votre agenda Google. Nous l'intègrerons dans l'agenda public.
