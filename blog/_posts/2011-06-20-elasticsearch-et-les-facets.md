@@ -7,7 +7,7 @@ tags:
 author: dpilato
 source: http://dev.david.pilato.fr/?p=148
 ---
-Les aventures avec ElasticSearch <a title="La recherche élastique…" href="http://dev.david.pilato.fr/?p=126">se poursuivent</a>.
+Les aventures avec ElasticSearch <a title="La recherche élastique..." href="http://dev.david.pilato.fr/?p=126">se poursuivent</a>.
 
 Combien de fois ai-je dit récemment que ce projet est absolument génial et qu'il va constituer à mon sens un des projets majeurs des prochaines années...
 
