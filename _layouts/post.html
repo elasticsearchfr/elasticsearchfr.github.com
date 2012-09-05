@@ -4,21 +4,41 @@ layout: default
 
 {% assign post = page %}
 
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p>
-      <time datetime="{{ post.date | date:'%Y-%m-%d' }}" pubdate="pubdate">{{ post.date | date_to_string }}</time>
-      <span class="author"><a href="/authors.html#{{ post.author }}">{{ site.authors[post.author].fullname }}</a></span>
-      <span class="comments"><a href="#disqus_thread" title="Voir les commentaires">Commentaires</a></span>
+<div class="row">
+	<div class="span12"><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></div>
+</div>
+<div class="row">
+	<div class="span6">
+	<blockquote>
+	<p>Par <span class="author"><a href="/authors.html#{{ post.author }}">{{ site.authors[post.author].fullname }}</a></span> 
+	le <time datetime="{{ post.date | date:'%Y-%m-%d' }}" pubdate="pubdate">{{ post.date | date_to_long_string }}</time></p>
 {% if post.source %} 
-<br/>Source : <a href="{{ post.source }}">{{ post.source }}</a>
+	<small>Source : <a href="{{ post.source }}">{{ post.source }}</a></small>
 {% endif %}
-    </p>    
-    
+	</blockquote>
+	</div>
+	<div class="span6">
+	<blockquote class="pull-right">
+	<p>{% include tags.html %}</p>
+	<small><span class="comments"><a href="#disqus_thread" title="Voir les commentaires">Commentaires</a></span></small>
+	</blockquote>
+	</div>
+</div>
+
 {% if post.image %} 
-<img src="{{ post.image }}">
+<div class="row">
+	<div class="span12"><img src="{{ post.image }}"></div>
+</div>
 {% endif %}
 
-  {{ content }}
+<div class="row">
+	<div class="span12">{{ content }}</div>
+</div>
 
-      {% include tags.html %}
-      {% include comments.html %}
+<div class="row">
+	<div class="span12">{% include tags.html %}</div>
+</div>
+
+<div class="row">
+	<div class="span12">{% include comments.html %}</div>
+</div>
